@@ -15,17 +15,23 @@ Where was it obtained, what are the dimensions of it (rows and columns), what ar
 columns, data types, etc. Describe it in sufficient detail so that an uninformed reader would
 understand the dataset
 
+For our project, we chose the Food Access Research Atlas, which we obtained from the US Data Gov website (https://catalog.data.gov/dataset). This is a dataset that depicts the distribution of low income and low access households, which are defined as food deserts by the Economic Research Service. THe data includes variables like accessibility to healthy food based on distance to nearest store and number of stores in the area, specific individual characteristics that may influence access, and neighborhood indicators, such as average household income and availability of public transportation. This dataset maps these indicators onto census tracts, taking into account the nearest distance to a supermarket. This dataset has 147 dimensions detailing everything from low access tracts, minorities, vehicle ownership, from strings to integers. 
 
 # The 2 questions the team generated and why they are interesting and important:
 What are the questions, and why each question is important. Importance can be evaluated and
 conveyed in a variety of ways including, social, economic, cultural and other factors. Also
 indicate how they are tied to the data set or sets being used
 
-# Question 1: 
+# Question 1: What percentage of low access areas are also low income? 
+This question examines the intersection of food access and economic disadvantage. In our dataset, “low access” refers to census tracts where a significant portion of the population lives far from supermarkets or large grocery stores. “Low income” means tracts where the tract's poverty rate is 20% or greater. Understanding the overlap between low-income communities and low food access is important because it highlights food deserts which are areas where residents may struggle both economically and geographically to obtain nutritious food. 
+
+# Question 2: 
 
 # The manipulations applied to the data set as part of the analysis:
 Were there any manipulations or calculations that needed to be performed on the data, what were
 they, describe the purpose and how they were accomplished
+
+When analyzing the data for our second question, we filtered 
 
 # Analysis and Results:
 Analyze and visualize the results of your analysis and describe the implications of your analysis.
