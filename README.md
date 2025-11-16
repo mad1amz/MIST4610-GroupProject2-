@@ -10,7 +10,7 @@
 4. Cameron White [@cfw10166]()
 5. Mariam Zaman [@mad1amz]()
 
-# Dataset Description: 
+## Dataset Description: 
 Where was it obtained, what are the dimensions of it (rows and columns), what are the various
 columns, data types, etc. Describe it in sufficient detail so that an uninformed reader would
 understand the dataset
@@ -22,10 +22,11 @@ What are the questions, and why each question is important. Importance can be ev
 conveyed in a variety of ways including, social, economic, cultural and other factors. Also
 indicate how they are tied to the data set or sets being used
 
-# Question 1: What percentage of low access areas are also low income? 
+## Question 1: What percentage of low access areas are also low income? 
 This question examines the intersection of food access and economic disadvantage. In our dataset, “low access” refers to census tracts where a significant portion of the population lives far from supermarkets or large grocery stores. “Low income” means tracts where the tract's poverty rate is 20% or greater. Understanding the overlap between low-income communities and low food access is important because it highlights food deserts which are areas where residents may struggle both economically and geographically to obtain nutritious food. 
 
-# Question 2: 
+## Question 2: Among the variables in the dataset, which factors have the strongest correlation with low-income and low-access areas?
+This question examines how different factors — such as age, _____ relate to the likelihood that a census tract is both low-income and low-access. This question helps us understand why certain communities are more likely to experience both low income and limited food access. Understanding these relationships can highlight the factors contributing to food deserts. This makes the question important for reasons like identifying vulnerable communities, knowing where to build food resources, showing the disproportionate impact on marginalized groups, etc. 
 
 # The manipulations applied to the data set as part of the analysis:
 Were there any manipulations or calculations that needed to be performed on the data, what were
