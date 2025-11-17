@@ -40,10 +40,8 @@ Our polynomial regression analysis of SNAP-participating households in low-acces
 
 
 
-## Data manipulation
-When conducting the analysis required for our second question, we realized that the sheer amount of null values present in the data skewed mathematical averages, as any visualization that calculates averages would likely ignore these NULL values. We felt that this didn’t make sense, because in this dataset, NULL values indicated a lack of presence of a particular group in a given census tract, so we felt that this NULL value could be replaced with 0. An example that illustrates this lies in census tract 01001020200 in Autauga County, Alabama. This tract had NULL values for the “lapop10” variable, indicating that there are 0 individuals in the tract that are considered low access at 10 miles. Therefore, when calculating average low income/low access percentage by state, having this as a null value instead of a 0 could overrepresent this average, for example. 
-
-Other than this change, we didn’t modify, remove, or add to our data in any way, even by way of reformatting or standardization. In addition, to the best of our knowledge, this data doesn’t have any redundant, inaccurate, or low-quality data as well. Due to the scale and highly specific nature of the dataset, it is next to impossible for us to validate the accuracy of the data. However, due to the reputable source that compiled this dataset, we can assume that the data is largely accurate. 
+## Data Manipulation
+We didn’t modify, remove from, or add to our dataset in any way, even by way of reformatting or standardization. It is also worth noting that, to the best of our knowledge, this data doesn’t have any redundant, inaccurate, or low-quality data as well. Due to the scale and highly specific nature of the dataset, it is next to impossible for us to validate the accuracy of the data. However, due to the reputable source that compiled this dataset, we can assume that the data is largely accurate. 
 
 # Tableau Packaged Workbook
 Save or Export your project as a Tableau packaged workbook file and provide it as part of the
