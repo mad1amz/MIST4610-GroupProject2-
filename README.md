@@ -23,16 +23,10 @@ From the map, we can infer that a significant percentage of low-access census tr
 ## Question 2: Among the variables in the dataset, which factors have the strongest correlation with low-income and low-access areas?
 This question examines how different factors — such as age, _____ relate to the likelihood that a census tract is both low-income and low-access. This question helps us understand why certain communities are more likely to experience both low income and limited food access. Understanding these relationships can highlight the factors contributing to food deserts. This makes the question important for reasons like identifying vulnerable communities, knowing where to build food resources, showing the disproportionate impact on marginalized groups, etc. 
 
-# The manipulations applied to the data set as part of the analysis:
-Were there any manipulations or calculations that needed to be performed on the data, what were
-they, describe the purpose and how they were accomplished
+## Data manipulation
+When conducting the analysis required for our second question, we realized that the sheer amount of null values present in the data skewed mathematical averages, as any visualization that calculates averages would likely ignore these NULL values. We felt that this didn’t make sense, because in this dataset, NULL values indicated a lack of presence of a particular group in a given census tract, so we felt that this NULL value could be replaced with 0. An example that illustrates this lies in census tract 01001020200 in Autauga County, Alabama. This tract had NULL values for the “lapop10” variable, indicating that there are 0 individuals in the tract that are considered low access at 10 miles. Therefore, when calculating average low income/low access percentage by state, having this as a null value instead of a 0 could overrepresent this average, for example. 
 
-When analyzing the data for our second question, we filtered 
-
-# Analysis and Results:
-Analyze and visualize the results of your analysis and describe the implications of your analysis.
-Please provide any citations if required as well as supporting visualizations and analysis
-generated from Tableau
+Other than this change, we didn’t modify, remove, or add to our data in any way, even by way of reformatting or standardization. In addition, to the best of our knowledge, this data doesn’t have any redundant, inaccurate, or low-quality data as well. Due to the scale and highly specific nature of the dataset, it is next to impossible for us to validate the accuracy of the data. However, due to the reputable source that compiled this dataset, we can assume that the data is largely accurate. 
 
 # Tableau Packaged Workbook
 Save or Export your project as a Tableau packaged workbook file and provide it as part of the
