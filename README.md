@@ -34,15 +34,14 @@ This question examines how different factors relate to the likelihood that a cen
 
 <img width="659" height="439" alt="image" src="https://github.com/user-attachments/assets/272ca6fd-6752-4c63-9548-1716422e38a4" />
 
-Our polynomial regression analysis of SNAP-participating households in low-access areas shows a remarkably strong relationship with the number of low-income/low-access tracts at the county level. With an R-squared value of 0.9088 and a p-value below 0.0001, the model explains over 90% of the variation in LILA tracts, indicating that SNAP housing is one of the most powerful predictors in our dataset. The nonlinear trend demonstrates that as SNAP housing increases, LILA tracts grow at an accelerating rate, suggesting that structural poverty compounds food access challenges. Counties with high SNAP participation tend to experience disproportionately more food-desert conditions, reinforcing the conclusion that economic need is a primary driver of low-income, low-access classifications.
+Our polynomial regression analysis of SNAP-participating households in low-access areas shows a remarkably strong relationship with the number of low-income/low-access tracts at the county level. With an R-squared value of 0.9088 and a p-value below 0.0001, the model explains over 90% of the variation, indicating that SNAP housing is one of the most powerful predictors in our dataset. The nonlinear trend demonstrates that as SNAP housing increases, LILA tracts grow at an accelerating rate, suggesting that structural poverty compounds food access challenges. Counties with high SNAP participation tend to experience disproportionately more food-desert conditions, reinforcing the conclusion that economic need is a primary driver of low-income, low-access classifications.
 
 <img width="642" height="373" alt="image" src="https://github.com/user-attachments/assets/a31b0387-5486-49fc-854a-fc74bf5b88ec" />
 
-
+By normalizing SNAP-participating households in low-access areas by total housing units, we removed the bias caused by differences in county population. Even after this adjustment, the relationship between SNAP participation and LILA tracts remained extremely strong, with an R-squared of 0.9086 and a p-value under 0.0001. Number of housing units has little effect on number of LILA tracts within a county. This demonstrates that the correlation between number of SNAP households and number of LILA tracts in a county is not skewed by overall population. 
 
 ## Data Manipulation
 We didn’t modify, remove from, or add to our dataset in any way, even by way of reformatting or standardization. It is also worth noting that, to the best of our knowledge, this data doesn’t have any redundant, inaccurate, or low-quality data as well. Due to the scale and highly specific nature of the dataset, it is next to impossible for us to validate the accuracy of the data. However, due to the reputable source that compiled this dataset, we can assume that the data is largely accurate. 
 
 # Tableau Packaged Workbook
-Save or Export your project as a Tableau packaged workbook file and provide it as part of the
-github repository
+The packaged workbook containing the visualizations is attached to this repository.
