@@ -20,11 +20,12 @@ These visualizations depict an interesting association between low income and lo
 
 This contrast is important, as it suggests that food deserts, or areas that are both low access and low income, occur for different reasons in different areas of the country. Therefore, blanket federal legislation may be unable to address this issue, and may require regional-based solutions and additional analysis/investigation to solve the issue. 
 
-<img width="852" height="478" alt="image" src="https://github.com/user-attachments/assets/5ba8a461-038b-42a4-ac2f-5af83d9adec2" />
+<img width="1447" height="755" alt="image" src="https://github.com/user-attachments/assets/5a65f02d-86d4-4109-b3c1-884f12c2cae6" />
 
 From the map, we can infer that a significant percentage of low-access census tracts are also low-income. Large sections of the South and Midwest show ratios close to 1.0, meaning almost all low access residents in these areas are also low-income. While some regions, like the West, show low-income and low-access occurring independently, the overarching pattern suggests a strong overlap between the two variables.
 
-<img width="615" height="350" alt="image" src="https://github.com/user-attachments/assets/0634cbe8-d6c8-4a0f-9704-349c9fc2144d" />
+<img width="1438" height="757" alt="image" src="https://github.com/user-attachments/assets/19859a36-6703-4d84-90c1-b94c7844962c" />
+
 
 The tree map further depicts the ideas touched on in graph 1, as it demonstrates the ratios of low income areas to low access areas by state. Most of the states with a low ratio are in the aforementioned regions of the northeastern or western United States, further demonstrating the earlier point of being low income and having low access aren’t 100% correlated. However, this graph points out one notable exception: Iowa. There may be some unique conditions specific to Iowa that causes this, which may be something to explore further. We can conclude that while the ratio of low-income to low-access areas varies by state, the majority of states display moderate to high overlap (light to dark blue). This indicates that a significant portion of low-access areas across the country are also low-income. Only a small number of states show low overlap, suggesting that nationally, poverty is a major contributing factor to food access issues. 
 
@@ -32,11 +33,11 @@ The tree map further depicts the ideas touched on in graph 1, as it demonstrates
 ## Question 2: Among the variables in the dataset, which factors have the strongest correlation with low-income and low-access areas?
 This question examines how different factors relate to the likelihood that a census tract is both low-income and low-access. This question helps us understand why certain communities are more likely to experience both low income and limited food access. Understanding these relationships can highlight the factors contributing to food deserts. This makes the question important for reasons like identifying vulnerable communities, knowing where to build food resources, showing the disproportionate impact on marginalized groups, etc. 
 
-<img width="659" height="439" alt="image" src="https://github.com/user-attachments/assets/272ca6fd-6752-4c63-9548-1716422e38a4" />
+<img width="743" height="747" alt="image" src="https://github.com/user-attachments/assets/61842e93-2c1c-4022-a51d-44520f5ccc69" />
 
 Our polynomial regression analysis of SNAP-participating households in low-access areas shows a remarkably strong relationship with the number of low-income/low-access tracts at the county level. With an R-squared value of 0.9088 and a p-value below 0.0001, the model explains over 90% of the variation, indicating that SNAP housing is one of the most powerful predictors in our dataset. The nonlinear trend demonstrates that as SNAP housing increases, LILA tracts grow at an accelerating rate, suggesting that structural poverty compounds food access challenges. Counties with high SNAP participation tend to experience disproportionately more food-desert conditions, reinforcing the conclusion that economic need is a primary driver of low-income, low-access classifications.
 
-<img width="642" height="373" alt="image" src="https://github.com/user-attachments/assets/a31b0387-5486-49fc-854a-fc74bf5b88ec" />
+<img width="1037" height="750" alt="image" src="https://github.com/user-attachments/assets/f32f6c9d-46a9-403b-9d86-ee0a6d81abb3" />
 
 By normalizing SNAP-participating households in low-access areas by total housing units, we removed the bias caused by differences in county population. Even after this adjustment, the relationship between SNAP participation and LILA tracts remained extremely strong, with an R-squared of 0.9086 and a p-value under 0.0001. Number of housing units has little effect on number of LILA tracts within a county. This demonstrates that the correlation between number of SNAP households and number of LILA tracts in a county is not skewed by overall population. 
 
